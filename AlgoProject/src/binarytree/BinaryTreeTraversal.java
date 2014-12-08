@@ -21,21 +21,6 @@ public class BinaryTreeTraversal {
 			}
 		}
 	}
-	
-	
-	
-	public static void inorderTravTest(TreeNode root) {
-		Stack stack = new Stack();
-		TreeNode temp = root;
-		if(temp==null)
-			return;
-		while(temp.getLeftNode()!=null){
-			stack.push(temp);
-			temp = temp.getLeftNode();
-		}
-		process(temp);
-		
-	}
 
 	public static void preorderTrav(TreeNode root) {
 		TreeNode temp = root;

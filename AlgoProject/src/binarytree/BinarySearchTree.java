@@ -111,8 +111,6 @@ public class BinarySearchTree {
 			return false;
 	}
 
-	//is it a correct implemntation for in order suc
-	
 	public static TreeNode inorderSuc(TreeNode node, TreeNode parSuc) {
 		TreeNode temp = node;
 		if (temp == null)
